@@ -1,0 +1,88 @@
+Notes on Css, from Css crash Course for absolute beginners
+
+Wht is Css?
+- Cascading SyleSheets
+- Not a programming language
+- stylesheet/styling language
+- used for website layout and design
+
+Types of ways of adding css in html file
+
+- Inline CSS: on the html tag (No don't use)
+- Internal CSS: using <style>
+- External: linking an external .css file (Best)
+
+
+css selector format
+
+selector           property              value
+________  _______________________     ___________       declaration
+                                                             end
+   a    {      background-color    :   yellow;            }  
+    declaration               property/value declaration
+       start                   separator      separator
+
+Colors in Css
+- we can use - color names
+             - HTML5 Color names
+             - Hexadecimal color:#00ff00;
+             - RGB color:rgb(0,0,255);
+
+Difference between class and id in css 
+id should be unique not usually used else where
+class- the style could be used else where when we want
+
+in Css to target a class, we use .
+
+
+
+
+Box model- margin and padding
+
+
+ _______________________ sCREENSHOT on pictures________________________________________________________________
+|   											|                                                                        
+
+
+margin writing
+
+specific {
+
+      margin-top:5px;
+      margin-bottom:5px;
+      margin-right:10px;
+      margin-left:10px;
+
+}
+
+semi-specific{
+
+        margin:5px 10px 5px 10px; /* goes like top right bottom left
+
+}
+
+if right and left are the same and top and bottom are the same
+
+p{
+
+margin: 5px 10px;
+
+}
+
+if all of them are the same
+
+p{
+
+margin: 5px;
+
+} 
+
+
+positioning in Css
+
+- static default
+- relative positioned relative to it's normal position
+- absolute target desired position relative to an element
+- fixed fixed position
+- initial default value
+- inherit will inherit from parent
