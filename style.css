@@ -1,0 +1,25 @@
+.container{
+
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #444444;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+
+
+}
+
+
+.container div{
+
+    color: white;
+    height: 100px;
+    width: 100px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    margin: 5px;
+
+}
